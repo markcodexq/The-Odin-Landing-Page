@@ -1,0 +1,148 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f2937;
+  padding: 0 150px;
+}
+
+.nav-section {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  gap: 40px;
+  padding: 50px 150px;
+}
+
+.nav-section h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #f9faf8;
+}
+
+.nav-section p {
+  font-size: 18px;
+  width: 600px;
+}
+
+button {
+  background-color: #3882f6;
+  border-radius: 5px;
+  color: #e5e7eb;
+  padding: 7px;
+}
+
+button:hover {
+  background-color: #3882f8;
+  cursor: pointer;
+}
+
+.nav-section img {
+  width: 450px;
+  height: 290px;
+}
+
+ul {
+  display: flex;
+  gap: 25px;
+}
+
+a {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+.random-information {
+  padding: 50px 150px;
+}
+
+.random-information h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.random-stuff {
+  display: flex;
+  justify-content: center;
+  gap: 50px
+}
+
+.random-stuff p {
+  display: inline;
+}
+
+.random-stuff div {
+  width: 250px;
+}
+
+.random-stuff img{
+  border: 3px solid #3882f6;
+  border-radius: 5px;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 50px 150px;
+}
+
+#blockquote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+figcaption {
+  font-weight: 900;
+  text-align: right;
+}
+
+.box {
+  padding: 50px 350px;
+}
+
+.box-sign-up {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 150px;
+  background-color: #3882f8;
+  border-radius: 5px;
+  color: #f9faf8;
+}
+
+.box-header {
+  font-size: 1.4em;
+  font-weight: bold;
+  align-items: center;
+}
+
+.box-sign-up button {
+  float: right;
+  align-self: center;
+  align-items: center;
+  border: 2px solid white;
+}
+
+footer {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  padding: 20px 0;
+}
